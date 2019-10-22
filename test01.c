@@ -2,8 +2,8 @@
 int main(void)
 {
     float c,f;
-    f=100;
-    c=5/9.0*(f-32);
-    printf("c==%f\n",c);
+    printf("enter F:\n");
+    scanf("%f",&f);
+    printf("c=%f\n",5/9.0*(f-32));
     return 0;
 }
